@@ -1,0 +1,2 @@
+❯ dotnet ef migrations add InitialModel --context AppDbContext -p ../Infrastructure/Infrastructure.csproj -s Api.csproj -o Data/Migrations 
+dotnet ef database update -c AppDbContext -p ../Infrastructure/Infrastructure.csproj -s Api.csproj
